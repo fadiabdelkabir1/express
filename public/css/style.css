@@ -1,0 +1,84 @@
+body{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    padding: 10px;
+    height: 40px;
+}
+.logo{
+    height: 50px;
+    width: 80px;
+    border-radius: 50%;
+}
+.leftbar{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.NavBar{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: space-around;
+    
+}
+li{
+    list-style: none;    
+}
+li>a{
+    text-decoration: none;
+    color: black;
+    
+}
+.homemain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+}
+.homemain>img{
+    width: 900px;
+    height: 500px;
+}
+.ourservicesmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+
+}
+.ourservicesmain>.imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ourservicesmain>.imgs>img{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+}
+.contactusmain>img{
+    width: 900px;
+    height: 500px;
+}
+.contactusmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.blockedmain>img{
+    width: 900px;
+    height: 500px;
+}
